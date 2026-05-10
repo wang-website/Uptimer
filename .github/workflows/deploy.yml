@@ -384,6 +384,9 @@ jobs:
             fi
           fi
 
+          api_origin="https://api.661212.xyz/v2/status"
+          api_base="https://api.661212.xyz/v2/status/api/v1"
+
           
           echo "Using VITE_API_BASE=$api_base"
           echo "VITE_API_BASE=$api_base" >> "$GITHUB_ENV"
